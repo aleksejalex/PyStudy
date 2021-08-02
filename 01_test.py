@@ -26,14 +26,15 @@ Hamlet = (True or (not True))  # as 'To be or not to be'
 def shakespeare_says(thought):
     if thought == True:
         return "To be"
-    else: # thought == False
+    else:  # thought == False
         return "Not to be"
 
 
 # using functions
 print("The answer to Hamlet's question is: " + shakespeare_says(Hamlet))
 
-
-
-
-
+# lambda functions
+# in Python, they are always anonymous: you can call them as var(agrs) (see in printing below),
+# but you cannot name them.
+x = lambda a, b: a * b
+print(x(5, 6))
