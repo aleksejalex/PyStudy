@@ -9,6 +9,7 @@ Modified by
 """
 
 # Useful shortcuts for common packages
+import random as rn     # random number generator
 import numpy as np      # package for math and computation
 import scipy as scp     # package for scientific purposes
 import sympy as sp      # package for symbolic computations

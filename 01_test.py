@@ -19,8 +19,21 @@ for i in range(600):
 toc()
 
 # booleans
-shakespeare = (True or (not True))  # as 'To be or not to be'
-print("The Hamlet's question has simple answer: " + str(shakespeare))
+Hamlet = (True or (not True))  # as 'To be or not to be'
+
+
+# calling functions, if/else
+def shakespeare_says(thought):
+    if thought == True:
+        return "To be"
+    else: # thought == False
+        return "Not to be"
+
+
+# using functions
+print("The answer to Hamlet's question is: " + shakespeare_says(Hamlet))
+
+
 
 
 
