@@ -38,3 +38,5 @@ print("The answer to Hamlet's question is: " + shakespeare_says(Hamlet))
 # but you cannot name them.
 x = lambda a, b: a * b
 print(x(5, 6))
+
+
